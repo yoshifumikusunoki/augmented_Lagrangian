@@ -23,5 +23,7 @@ Run the following.
 plot_prob_quad
 ```
 Then, you see the following plot of the quadratic problem and the trajectory obtained by the augmented Lagrangian.
+The feasible region is the polyhedron of the figure,
+and the curves are contours of the objective function.
 
 <img src="traj.png">
