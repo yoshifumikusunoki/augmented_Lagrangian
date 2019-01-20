@@ -1,0 +1,430 @@
+# Created by Octave 4.4.1, Tue Nov 20 17:35:27 2018 GMT <unknown@kusunoki>
+# name: A
+# type: matrix
+# rows: 1
+# columns: 2
+ 0 0
+
+
+# name: D
+# type: matrix
+# rows: 4
+# columns: 2
+ 0.047679307714473922 0.040530285047677625
+ -0.010529947632814535 -0.040406120630815563
+ -0.040122050457956387 0.0036089129672733033
+ 0.076457810330817916 -0.015631834113191974
+
+
+# name: P
+# type: matrix
+# rows: 2
+# columns: 2
+ 0.029853854024892122 0.045743892937201561
+ 0.045743892937201561 0.070169369792708089
+
+
+# name: b
+# type: scalar
+0
+
+
+# name: e
+# type: matrix
+# rows: 4
+# columns: 1
+ 1.1717453315185828
+ 1.3889299666616646
+ 1.400270782399597
+ 1.2590477321015123
+
+
+# name: m
+# type: scalar
+1
+
+
+# name: mosek_a
+# type: matrix
+# rows: 5
+# columns: 2
+ 0 0
+ 0.047679307714473922 0.040530285047677625
+ -0.010529947632814535 -0.040406120630815563
+ -0.040122050457956387 0.0036089129672733033
+ 0.076457810330817916 -0.015631834113191974
+
+
+# name: mosek_blc
+# type: matrix
+# rows: 5
+# columns: 1
+ 0
+ -Inf
+ -Inf
+ -Inf
+ -Inf
+
+
+# name: mosek_blx
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: mosek_buc
+# type: matrix
+# rows: 5
+# columns: 1
+ 0
+ 1.1717453315185828
+ 1.3889299666616646
+ 1.400270782399597
+ 1.2590477321015123
+
+
+# name: mosek_bux
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: mosek_c
+# type: matrix
+# rows: 2
+# columns: 1
+ -97.751923587969699
+ -21.084625556355789
+
+
+# name: mosek_lambda
+# type: scalar
+0
+
+
+# name: mosek_mu
+# type: matrix
+# rows: 4
+# columns: 1
+ 590.57933545434253
+ -9.6208412129141233e-07
+ -1.5581014549644547e-06
+ 674.28194445249721
+
+
+# name: mosek_q
+# type: matrix
+# rows: 2
+# columns: 2
+ 1 0
+ 0 1
+
+
+# name: mosek_res
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 4
+# name: sol
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 1
+# name: itr
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 17
+# name: prosta
+# type: sq_string
+# elements: 1
+# length: 24
+PRIMAL_AND_DUAL_FEASIBLE
+
+
+# name: solsta
+# type: sq_string
+# elements: 1
+# length: 7
+OPTIMAL
+
+
+# name: skc
+# type: sq_string
+# elements: 5
+# length: 2
+EQ
+# length: 2
+UL
+# length: 2
+SB
+# length: 2
+SB
+# length: 2
+UL
+
+
+# name: skx
+# type: sq_string
+# elements: 2
+# length: 2
+SB
+# length: 2
+SB
+
+
+# name: skn
+# type: sq_string
+# elements: 0
+
+
+# name: xc
+# type: matrix
+# rows: 5
+# columns: 1
+ -0
+ 1.1717453280910763
+ -0.50064290315705318
+ -0.69602328324087148
+ 1.2590477293550451
+
+
+# name: xx
+# type: matrix
+# rows: 2
+# columns: 1
+ 18.039279754758532
+ 7.689187389720872
+
+
+# name: barx
+# type: matrix
+# rows: 0
+# columns: 1
+
+
+# name: y
+# type: matrix
+# rows: 5
+# columns: 1
+ 0
+ -590.57933545434253
+ 9.6208412129141233e-07
+ 1.5581014549644547e-06
+ -674.28194445249721
+
+
+# name: slc
+# type: matrix
+# rows: 5
+# columns: 1
+ 0
+ 0
+ 0
+ 0
+ 0
+
+
+# name: suc
+# type: matrix
+# rows: 5
+# columns: 1
+ 0
+ 590.57933545434253
+ -9.6208412129141233e-07
+ -1.5581014549644547e-06
+ 674.28194445249721
+
+
+# name: slx
+# type: matrix
+# rows: 2
+# columns: 1
+ 0
+ 0
+
+
+# name: sux
+# type: matrix
+# rows: 2
+# columns: 1
+ 0
+ 0
+
+
+# name: snx
+# type: matrix
+# rows: 2
+# columns: 1
+ 0
+ 0
+
+
+# name: bars
+# type: matrix
+# rows: 0
+# columns: 1
+
+
+# name: pobjval
+# type: scalar
+-1733.2283247217404
+
+
+# name: dobjval
+# type: scalar
+-1733.2313370441977
+
+
+
+
+
+
+# name: rcode
+# type: scalar
+0
+
+
+# name: rmsg
+# type: sq_string
+# elements: 0
+
+
+# name: rcodestr
+# type: sq_string
+# elements: 1
+# length: 10
+MSK_RES_OK
+
+
+
+
+# name: mosek_x
+# type: matrix
+# rows: 2
+# columns: 1
+ 18.039279754758532
+ 7.689187389720872
+
+
+# name: n
+# type: scalar
+2
+
+
+# name: param
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 16
+# name: c0
+# type: scalar
+1
+
+
+# name: delta
+# type: scalar
+2
+
+
+# name: gamma
+# type: scalar
+0.25
+
+
+# name: epsilon0
+# type: scalar
+1
+
+
+# name: omega
+# type: scalar
+0.80000000000000004
+
+
+# name: s0
+# type: scalar
+1
+
+
+# name: alpha
+# type: scalar
+0.10000000000000001
+
+
+# name: beta
+# type: scalar
+0.80000000000000004
+
+
+# name: pth
+# type: scalar
+9.9999999999999995e-07
+
+
+# name: dth
+# type: scalar
+9.9999999999999995e-07
+
+
+# name: max_out_itr
+# type: scalar
+2
+
+
+# name: max_in_itr
+# type: scalar
+20
+
+
+# name: min_step
+# type: scalar
+9.9999999999999998e-13
+
+
+# name: x0
+# type: matrix
+# rows: 2
+# columns: 1
+ 97.751923587969699
+ 21.084625556355789
+
+
+# name: lambda0
+# type: scalar
+0
+
+
+# name: mu0
+# type: matrix
+# rows: 4
+# columns: 1
+ 0
+ 0
+ 0
+ 0
+
+
+
+
+# name: r
+# type: scalar
+4
+
+
+# name: x0
+# type: matrix
+# rows: 2
+# columns: 1
+ 97.751923587969699
+ 21.084625556355789
+
+
+# name: xc
+# type: matrix
+# rows: 2
+# columns: 1
+ 97.751923587969699
+ 21.084625556355789
+
+
