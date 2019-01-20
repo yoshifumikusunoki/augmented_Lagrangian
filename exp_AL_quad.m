@@ -4,10 +4,10 @@ clear
 
 %% load problem
 
-##load('prob_quad_var2_ineq4.mat',...
-##'n','P','xc','m','A','b','r','D','e','x0');
-load('prob_quad_var100_ineq200.mat',...
+load('prob_quad_var2_ineq4.mat',...
 'n','P','xc','m','A','b','r','D','e','x0');
+# load('prob_quad_var100_ineq200.mat',...
+# 'n','P','xc','m','A','b','r','D','e','x0');
 
 f = @(x) sum((x-xc).'*P*(x-xc))/2;
 df = @(x) P*(x-xc);
